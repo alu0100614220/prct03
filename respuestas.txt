@@ -1,1 +1,34 @@
+21. ¿Qué diferencia hay entre "\t\n" y ’\t\n’?
+Las comillas simples son más "eficientes", las comillas simples interpretan lo que hay dentro de la cadena.
+
+22. ¿Cómo funciona %q? ¿Qué es %q{hello world\n}? ¿Qué es %q{’a’ ’b’ ’c’}?
+Se usa para representar strings que usen metacaracteres como las comillas. %q{hello world\n} muestra por pantalla hello world\n (no entiende el \n. Y %q muestra 'a' 'b' 'c'.
+
+23. ¿Cómo funciona %Q? ¿Qué es %Q{hello world\n}? ¿Qué es %Q{"a" "b" "c"}?
+Se usa para representar strings que usen metacaracteres como las comillas. %Q{hello world\n} muestra por pantalla hello world\n (no entiende el \n. Y %q muestra "a" "b" "c".
+
+24. ¿Qué queda en c?
+"--4--\n--2--\n" 
+
+25. ¿Que queda en c?
+"--4--\n--2--\n" 
+
+26 s= "hello". ¿Cuál es el valor de las siguientes expresiones?
+s[0,2]  => "he" 
+s[-1,1] => "o" 
+s[0,10] => "hello" 
+
+27. ¿Qué queda en g?
+Hello world
+
+28. ¿Qué queda en e?
+...
+
+29. ¿Cuál es el resultado?
+2 2 2
+
+30. ¿Qué es esto?%w[this is a test]
+imprime this is a test por pantalla, pero separado por espacios y entre comillas dobles.
+
+ 
 
